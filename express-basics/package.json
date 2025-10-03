@@ -1,0 +1,21 @@
+{
+  "name": "express-basics",
+  "version": "1.0.0",
+  "description": "In this activity, you will be fixing a machine called Express Yourself in the browser. The machine is supposed to provide functionality for clients to interact with various Expressions: JavaScript objects each containing ids, names, and emojis. Currently, it looks nice, but nothing works since there is no server in place! You will be learning all the necessary skills to implement an API allowing clients to Create, Read, Update, and Delete Expressions. These four functionalities together are known as CRUD, and they form the backbone of many real-life APIs.",
+  "repository": {
+    "type": "git",
+    "url": "expressyourself"
+  },
+  "license": "ISC",
+  "author": "jimena",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "knex": "^3.1.0",
+    "pg": "^8.14.1"
+  }
+}
