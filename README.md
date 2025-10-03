@@ -29,4 +29,49 @@ It powers the **Express Yourself Machine**, allowing users to interact with obje
    ```bash
    git clone https://github.com/your-username/express-yourself.git
    cd express-yourself
+   ```
+2. Install dependencies:
+```bash
+npm install
+```
 
+3. Start the server:
+```bash
+node app.js
+```
+
+4. Open the Express Yourself Machine in your browser.
+By default, the server runs on:
+```bash
+http://localhost:4001
+
+```
+(or the port defined in the PORT variable).
+
+## 🛠️ Dependencies
+
+- Node.js
+- Express.js
+
+## 📂 Project Structure
+📦 express-yourself
+ ┣ 📂 public          # Static files (UI for the Express Yourself machine)
+ ┣ 📂 utils           # Helper functions (getElementById, createElement, updateElement, etc.)
+ ┣ app.js             # Main server code
+ ┣ package.json
+ ┗ README.md
+
+## ✅ Helper Functions (utils.js)
+
+- `getElementById(id, array)` → Finds an element by ID.
+- `getIndexById(id, array)` → Gets the index of an element by ID.
+- `createElement(type, object)` → Creates a new valid object.
+- `updateElement(id, queryArgs, array)` → Updates an existing object.
+
+## 🧪 API Testing
+
+You can test the API using:
+
+- The Express Yourself Machine (UI in /public).
+- API clients like Postman, Insomnia, or cURL.
+- fetch() in your browser or Node.js.
