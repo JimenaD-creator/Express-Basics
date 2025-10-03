@@ -75,3 +75,6 @@ You can test the API using:
 - The Express Yourself Machine (UI in /public).
 - API clients like Postman, Insomnia, or cURL.
 - fetch() in your browser or Node.js.
+  
+## 📝 License
+This project is for educational purposes only.
